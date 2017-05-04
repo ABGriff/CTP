@@ -204,3 +204,5 @@ C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\obj\x86
 C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\obj\x86\Release\qualifiers.txt.intermediate
 C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\obj\x86\Release\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\obj\x86\Release\ProjectArchitectures.txt
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\bin\x86\Release\nunit.framework.dll
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\bin\x86\Release\nunit.framework.pdb

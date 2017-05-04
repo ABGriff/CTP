@@ -464,6 +464,9 @@
     <AppxPackagedFile Include="C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\UnityEngine.dll">
       <PackagePath>UnityEngine.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\nunit.framework.dll">
+      <PackagePath>nunit.framework.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\UnityEngine.UI.dll">
       <PackagePath>UnityEngine.UI.dll</PackagePath>
     </AppxPackagedFile>
