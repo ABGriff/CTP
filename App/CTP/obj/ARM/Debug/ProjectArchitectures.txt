@@ -1,4 +1,0 @@
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\Common Time Playbox\CTP\App\CTP\CTP.csproj;arm
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\Common Time Playbox\CTP\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;arm
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\Common Time Playbox\CTP\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;arm
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\Common Time Playbox\CTP\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;arm
