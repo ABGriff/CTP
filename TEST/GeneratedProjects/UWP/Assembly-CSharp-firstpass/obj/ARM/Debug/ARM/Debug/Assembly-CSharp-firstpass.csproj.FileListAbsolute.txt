@@ -1,0 +1,17 @@
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\TEST\GeneratedProjects\UWP\Assembly-CSharp-firstpass\bin\ARM\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\TEST\GeneratedProjects\UWP\Assembly-CSharp-firstpass\bin\ARM\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\TEST\GeneratedProjects\UWP\Assembly-CSharp-firstpass\bin\ARM\Debug\Assembly-CSharp-firstpass.pri
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\TEST\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\TEST\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\TEST\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\TEST\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\priconfig.xml
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\TEST\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\priconfig.xml.intermediate
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\TEST\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\layout.resfiles
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\TEST\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\layout.resfiles.intermediate
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\TEST\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\resources.resfiles
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\TEST\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\resources.resfiles.intermediate
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\TEST\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\pri.resfiles
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\TEST\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\pri.resfiles.intermediate
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\TEST\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\qualifiers.txt
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\TEST\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\qualifiers.txt.intermediate
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\TEST\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\ARM\Debug\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
