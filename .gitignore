@@ -1,23 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> Major Update: Manipulation of Objects
-# =============== #
-# Unity generated #
-# =============== #
-[Tt]emp/
-[Oo]bj/
-[Bb]uild
-<<<<<<< HEAD
-=======
-
-<<<<<<< HEAD
 # Created by https://www.gitignore.io/api/unity
 
 ### Unity ###
->>>>>>> Update of files. New Gitignore
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -48,118 +31,9 @@ ExportedObj/
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
-<<<<<<< HEAD
-*.stackdump
- 
-# ============================================= #
-# Visual Studio / MonoDevelop / Rider generated #
-# ============================================= #
-[Ee]xported[Oo]bj/
-.vs/
-/*.userprefs
-/*.csproj
-/*.pidb
-/*.suo
-/*.sln*
-/*.user
-/*.unityproj
-/*.booproj
-/.idea*/
- 
-# ============ #
-# OS generated #
-# ============ #
-.DS_Store*
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-[Tt]humbs.db
-[Dd]esktop.ini
-=======
-=======
->>>>>>> Major Update: Manipulation of Objects
-/[Ll]ibrary/
-sysinfo.txt
-<<<<<<< HEAD
-=======
->>>>>>> Update of files. New Gitignore
 
 # Builds
 *.apk
 *.unitypackage
-<<<<<<< HEAD
->>>>>>> Initial Commit
-=======
-*.stackdump
- 
-# ============================================= #
-# Visual Studio / MonoDevelop / Rider generated #
-# ============================================= #
-[Ee]xported[Oo]bj/
-.vs/
-/*.userprefs
-/*.csproj
-/*.pidb
-/*.suo
-/*.sln*
-/*.user
-/*.unityproj
-/*.booproj
-/.idea*/
- 
-# ============ #
-# OS generated #
-# ============ #
-.DS_Store*
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-[Tt]humbs.db
-[Dd]esktop.ini
->>>>>>> Major Update: Manipulation of Objects
-=======
 
 # End of https://www.gitignore.io/api/unity
-<<<<<<< HEAD
->>>>>>> Update of files. New Gitignore
-=======
-=======
-# =============== #
-# Unity generated #
-# =============== #
-[Tt]emp/
-[Oo]bj/
-[Bb]uild
-/[Ll]ibrary/
-sysinfo.txt
-*.stackdump
- 
-# ============================================= #
-# Visual Studio / MonoDevelop / Rider generated #
-# ============================================= #
-[Ee]xported[Oo]bj/
-.vs/
-/*.userprefs
-/*.csproj
-/*.pidb
-/*.suo
-/*.sln*
-/*.user
-/*.unityproj
-/*.booproj
-/.idea*/
- 
-# ============ #
-# OS generated #
-# ============ #
-.DS_Store*
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-[Tt]humbs.db
-[Dd]esktop.ini
->>>>>>> 1005aa14eb1b743301c406ba257f6cce44cf3b55
->>>>>>> Update to Latest Version of working project. Gesture Manipulation implemented (US1, US4, US12)
