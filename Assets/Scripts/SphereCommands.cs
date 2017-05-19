@@ -11,17 +11,6 @@ public class SphereCommands : MonoBehaviour
 		originalPosition = this.transform.localPosition;
 	}
 
-	// Called by GazeGestureManager when the user performs a Select gesture
-	void OnSelect()
-	{
-		// If the sphere has no Rigidbody component, add one to enable physics.
-		if (!this.GetComponent<Rigidbody>())
-		{
-			var rigidbody = this.gameObject.AddComponent<Rigidbody>();
-			rigidbody.collisionDetectionMode = CollisionDetectionMode.Continuous;
-		}
-	}
-
 	// Called by SpeechManager when the user says the "Reset world" command
 	void OnReset()
 	{
@@ -39,7 +28,10 @@ public class SphereCommands : MonoBehaviour
 	// Called by SpeechManager when the user says the "Drop sphere" command
 	void OnDrop()
 	{
-		// Just do the same logic as a Select gesture.
-		OnSelect();
-	}
+        if (!this.GetComponent<Rigidbody>())
+        {
+            var rigidbody = this.gameObject.AddComponent<Rigidbody>();
+            rigidbody.collisionDetectionMode = CollisionDetectionMode.Continuous;
+        }
+    }
 }
