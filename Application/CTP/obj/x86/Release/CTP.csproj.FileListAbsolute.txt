@@ -112,6 +112,7 @@ C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\bin\x86
 C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\bin\x86\Release\System.Xml.XmlDocument.dll
 C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\bin\x86\Release\System.Xml.XmlSerializer.dll
 C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\bin\x86\Release\BridgeInterface.winmd
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\bin\x86\Release\nunit.framework.dll
 C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\bin\x86\Release\UnityEngine.dll
 C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\bin\x86\Release\UnityEngine.HoloLens.dll
 C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\bin\x86\Release\UnityEngine.Networking.dll
@@ -123,6 +124,7 @@ C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\bin\x86
 C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\bin\x86\Release\WinRTBridge.winmd
 C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\bin\x86\Release\WinRTLegacy.dll
 C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\bin\x86\Release\UnityEngine.pdb
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\bin\x86\Release\nunit.framework.pdb
 C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\bin\x86\Release\UnityEngine.UI.pdb
 C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\bin\x86\Release\UnityEngine.HoloLens.pdb
 C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\bin\x86\Release\UnityEngine.Networking.pdb
@@ -204,5 +206,3 @@ C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\obj\x86
 C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\obj\x86\Release\qualifiers.txt.intermediate
 C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\obj\x86\Release\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\obj\x86\Release\ProjectArchitectures.txt
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\bin\x86\Release\nunit.framework.dll
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP\bin\x86\Release\nunit.framework.pdb
