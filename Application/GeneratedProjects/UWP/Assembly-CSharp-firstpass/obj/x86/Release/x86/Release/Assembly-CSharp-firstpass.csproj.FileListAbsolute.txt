@@ -1,6 +1,7 @@
 C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.dll
 C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.pdb
 C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.pri
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
 C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.dll
 C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.pdb
 C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\priconfig.xml
