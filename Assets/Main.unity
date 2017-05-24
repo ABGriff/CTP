@@ -177,13 +177,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 205681678}
-  m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
+  m_LocalRotation: {x: 0.35355338, y: 0.35355338, z: -0.1464466, w: 0.8535535}
   m_LocalPosition: {x: -0.25, y: 0.131, z: 3.924}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 66383601}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 45, y: 45, z: 0}
 --- !u!114 &205681680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -261,6 +261,121 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 205681678}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &249286154
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 224000012143312124, guid: 29ca1e35f3947b342ae62fa1ce34517e,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012143312124, guid: 29ca1e35f3947b342ae62fa1ce34517e,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012143312124, guid: 29ca1e35f3947b342ae62fa1ce34517e,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 2.588
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012143312124, guid: 29ca1e35f3947b342ae62fa1ce34517e,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012143312124, guid: 29ca1e35f3947b342ae62fa1ce34517e,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012143312124, guid: 29ca1e35f3947b342ae62fa1ce34517e,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012143312124, guid: 29ca1e35f3947b342ae62fa1ce34517e,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012143312124, guid: 29ca1e35f3947b342ae62fa1ce34517e,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012143312124, guid: 29ca1e35f3947b342ae62fa1ce34517e,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.501
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012143312124, guid: 29ca1e35f3947b342ae62fa1ce34517e,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012143312124, guid: 29ca1e35f3947b342ae62fa1ce34517e,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012143312124, guid: 29ca1e35f3947b342ae62fa1ce34517e,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012143312124, guid: 29ca1e35f3947b342ae62fa1ce34517e,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012143312124, guid: 29ca1e35f3947b342ae62fa1ce34517e,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012143312124, guid: 29ca1e35f3947b342ae62fa1ce34517e,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012143312124, guid: 29ca1e35f3947b342ae62fa1ce34517e,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012143312124, guid: 29ca1e35f3947b342ae62fa1ce34517e,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224000012143312124, guid: 29ca1e35f3947b342ae62fa1ce34517e,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000012563305450, guid: 29ca1e35f3947b342ae62fa1ce34517e,
+        type: 2}
+      propertyPath: m_Text
+      value: 'Voice Commands:
+
+        (S)tart - Start Test
+
+        (R)eset - Reset Test
+
+        (P)ause - Pause Test
+
+        (C)ontinue - Continue a Paused Test
+
+'
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 29ca1e35f3947b342ae62fa1ce34517e, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &264306559
 Prefab:
   m_ObjectHideFlags: 0
@@ -514,7 +629,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4128505160898828, guid: 76b375f058e7cda4d8b68219bde4a983, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.438
+      value: 0.498
       objectReference: {fileID: 0}
     - target: {fileID: 4128505160898828, guid: 76b375f058e7cda4d8b68219bde4a983, type: 2}
       propertyPath: m_LocalPosition.z
@@ -522,19 +637,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4128505160898828, guid: 76b375f058e7cda4d8b68219bde4a983, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.27781588
       objectReference: {fileID: 0}
     - target: {fileID: 4128505160898828, guid: 76b375f058e7cda4d8b68219bde4a983, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.1150751
       objectReference: {fileID: 0}
     - target: {fileID: 4128505160898828, guid: 76b375f058e7cda4d8b68219bde4a983, type: 2}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.36497167
       objectReference: {fileID: 0}
     - target: {fileID: 4128505160898828, guid: 76b375f058e7cda4d8b68219bde4a983, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.8811196
       objectReference: {fileID: 0}
     - target: {fileID: 4128505160898828, guid: 76b375f058e7cda4d8b68219bde4a983, type: 2}
       propertyPath: m_RootOrder
@@ -548,6 +663,14 @@ Prefab:
         type: 2}
       propertyPath: SavedAnchorFriendlyName
       value: cube2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4128505160898828, guid: 76b375f058e7cda4d8b68219bde4a983, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4128505160898828, guid: 76b375f058e7cda4d8b68219bde4a983, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 45
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76b375f058e7cda4d8b68219bde4a983, type: 2}
@@ -846,6 +969,17 @@ MonoBehaviour:
             m_StringArgument: Blue
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 205681680}
+          m_MethodName: Reset
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
         - m_Target: {fileID: 165944232}
           m_MethodName: Reset
           m_Mode: 1
@@ -857,8 +991,77 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+  - Keyword: Pause
+    KeyCode: 112
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 364352192}
+          m_MethodName: PauseTest
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
         - m_Target: {fileID: 205681680}
-          m_MethodName: Reset
+          m_MethodName: PauseTest
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 165944232}
+          m_MethodName: PauseTest
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+  - Keyword: Continue
+    KeyCode: 99
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 364352192}
+          m_MethodName: ContinueTest
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 205681680}
+          m_MethodName: ContinueTest
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 165944232}
+          m_MethodName: ContinueTest
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}

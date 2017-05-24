@@ -7,7 +7,7 @@
 # Default behavior is to never overwrite files
 CTP 2.sln: modified
 CTP 2\App.cs: EC8BDEC89854AFF9167E9E790B8D98C0
-CTP 2\CTP 2.csproj: 07039549729B40FB23B26FDA0E277E97
+CTP 2\CTP 2.csproj: modified
 CTP 2\CTP 2.csproj.user: modified
 CTP 2\Package.appxmanifest: 9E741ACDC1CDC34CD545B4D1E0A8F095
 CTP 2\project.json: 1D02BC64BAC0D041019673A1C4C51737

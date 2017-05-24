@@ -1,9 +1,13 @@
 ﻿using UnityEngine;
 //using HoloToolkit.Unity;
+using System.Collections;
 
 public class Commands : MonoBehaviour
 {
+    Vector3 velocity;
+    Vector3 angularVelocity;
 
+    Quaternion originalRotation;
     Vector3 originalPosition;
     //protected WorldAnchorManager anchorManager;
 
@@ -12,6 +16,8 @@ public class Commands : MonoBehaviour
     {
         // Grab the original local position of the object when the app starts.
         originalPosition = transform.localPosition;
+        originalRotation = transform.rotation;
+
         Debug.Log(gameObject.name + "position");
     }
 
@@ -20,9 +26,8 @@ public class Commands : MonoBehaviour
         var focusObject = gameObject;
         if (focusObject != null)
         {
-            Debug.Log(gameObject.name + " test");
             //anchorManager.RemoveAnchor(gameObject); //Remove anchor temporarily
-            Debug.Log("RemoveAnchor");
+            //Debug.Log("RemoveAnchor");
             var rigidbody = this.gameObject.AddComponent<Rigidbody>();
             rigidbody.collisionDetectionMode = CollisionDetectionMode.Continuous;
             Debug.Log("Test Started");
@@ -43,12 +48,41 @@ public class Commands : MonoBehaviour
             DestroyImmediate(rigidbody);
         }
 
-        // Put the sphere back into its original local position.
+        // Put the object back into its original local position and rotation.
         //Debug.Log("transform");
         this.transform.localPosition = originalPosition;
+        this.transform.localRotation = originalRotation;
         //Debug.Log("rotate");
         //originalRotation = transform.rotation;
-        Debug.Log("done");
+    }
+
+    public void PauseTest()
+    {
+        //Pauses a current test in progress.
+        Debug.Log(gameObject.name + "Pausing Test");
+        var rigidbody = this.GetComponent<Rigidbody>();
+        if (rigidbody != null)
+        {
+            //Grab velocity and angular velocity for resume later
+            velocity = rigidbody.velocity;
+            angularVelocity = rigidbody.angularVelocity;
+            rigidbody.isKinematic = true;
+        }
+    }
+
+    public void ContinueTest()
+    {
+        //Pauses a current test in progress.
+        Debug.Log(gameObject.name + "Resuming Test");
+        var rigidbody = this.GetComponent<Rigidbody>();
+        if (rigidbody != null)
+        {
+            //Grab velocity and angular velocity for resume later
+            rigidbody.isKinematic = false;
+            rigidbody.AddForce(velocity, ForceMode.VelocityChange);
+            rigidbody.AddTorque(angularVelocity, ForceMode.VelocityChange);
+            Debug.Log("Resumed Test");
+        }
     }
 
     public void Test()
