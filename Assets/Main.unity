@@ -223,7 +223,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 5fcef7b90c777594ca48dbcd438f15ef, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -420,6 +420,11 @@ Prefab:
       propertyPath: SavedAnchorFriendlyName
       value: sphere
       objectReference: {fileID: 0}
+    - target: {fileID: 23940834300442614, guid: ec8e6a937f96c244497fa23f2bc7aa7a,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2374d5bb7e1c1b847aee2cb58e8676f9, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ec8e6a937f96c244497fa23f2bc7aa7a, type: 2}
   m_IsPrefabParent: 0
@@ -544,7 +549,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4092118356609360, guid: 229871ab2f3906f438d642c01e61aded, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0.08715578
+      value: -0.17364825
       objectReference: {fileID: 0}
     - target: {fileID: 4092118356609360, guid: 229871ab2f3906f438d642c01e61aded, type: 2}
       propertyPath: m_LocalRotation.y
@@ -556,7 +561,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4092118356609360, guid: 229871ab2f3906f438d642c01e61aded, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.9961947
+      value: 0.9848078
       objectReference: {fileID: 0}
     - target: {fileID: 4092118356609360, guid: 229871ab2f3906f438d642c01e61aded, type: 2}
       propertyPath: m_RootOrder
@@ -564,8 +569,13 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4092118356609360, guid: 229871ab2f3906f438d642c01e61aded, type: 2}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -10
+      value: -20
       objectReference: {fileID: 0}
+    - target: {fileID: 23969999391444468, guid: 229871ab2f3906f438d642c01e61aded,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9bf965d93f707634882225d977945e25, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 229871ab2f3906f438d642c01e61aded, type: 2}
   m_IsPrefabParent: 0
@@ -672,6 +682,11 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 45
       objectReference: {fileID: 0}
+    - target: {fileID: 23690338784702192, guid: 76b375f058e7cda4d8b68219bde4a983,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 71965d756303ffa49ad3d8255333635e, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76b375f058e7cda4d8b68219bde4a983, type: 2}
   m_IsPrefabParent: 0
@@ -737,6 +752,26 @@ MonoBehaviour:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 5
+--- !u!1 &1224048596 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1033503849925718, guid: 76b375f058e7cda4d8b68219bde4a983,
+    type: 2}
+  m_PrefabInternal: {fileID: 1057345640}
+--- !u!114 &1224048601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1224048596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 917567fe6da747c4fb0607c3d7448b00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RotateSpeed: 25
+  RotationFactor: 50
+  lastRotation: {x: 0, y: 0, z: 0, w: 0}
+  rotatingEnabled: 1
 --- !u!1001 &1236205795
 Prefab:
   m_ObjectHideFlags: 0
