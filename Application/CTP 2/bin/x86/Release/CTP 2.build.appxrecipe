@@ -430,6 +430,9 @@
     <AppxPackagedFile Include="C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP 2\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP 2\Data\resources.assets">
+      <PackagePath>Data\resources.assets</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP 2\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
     </AppxPackagedFile>
