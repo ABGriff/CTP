@@ -68,19 +68,11 @@ namespace HoloToolkit.Unity.InputModule
             }
 
             DetermineParent();
-<<<<<<< HEAD
 
             interpolator = PlaceParentOnTap
                 ? ParentGameObjectToPlace.EnsureComponent<Interpolator>()
                 : gameObject.EnsureComponent<Interpolator>();
 
-=======
-
-            interpolator = PlaceParentOnTap
-                ? ParentGameObjectToPlace.EnsureComponent<Interpolator>()
-                : gameObject.EnsureComponent<Interpolator>();
-
->>>>>>> origin/master
             if (IsBeingPlaced)
             {
                 HandlePlacement();
@@ -89,15 +81,11 @@ namespace HoloToolkit.Unity.InputModule
 
         protected virtual void Update()
         {
-<<<<<<< HEAD
             if (!IsBeingPlaced)
             {
                 Snapping();
                 return;
             }
-=======
-            if (!IsBeingPlaced) { return; }
->>>>>>> origin/master
 
             Vector3 headPosition = Camera.main.transform.position;
             Vector3 gazeDirection = Camera.main.transform.forward;
@@ -119,7 +107,6 @@ namespace HoloToolkit.Unity.InputModule
             if (PlaceParentOnTap)
             {
                 placementPosition = ParentGameObjectToPlace.transform.position + (placementPosition - gameObject.transform.position);
-<<<<<<< HEAD
             }
 
             // update the placement to match the user's gaze.
@@ -140,15 +127,6 @@ namespace HoloToolkit.Unity.InputModule
                 transform.position = new Vector3(Mathf.Floor(currentPos.x * 5) / 5, Mathf.Floor(currentPos.y * 5) / 5, Mathf.Floor(currentPos.z * 5) / 5);
             }
             
-=======
-            }
-
-            // update the placement to match the user's gaze.
-            interpolator.SetTargetPosition(placementPosition);
-
-            // Rotate this object to face the user.
-            interpolator.SetTargetRotation(Quaternion.Euler(0, Camera.main.transform.localEulerAngles.y, 0));
->>>>>>> origin/master
         }
 
         public virtual void OnInputClicked(InputClickedEventData eventData)
