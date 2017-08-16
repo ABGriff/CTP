@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-//using HoloToolkit.Unity;
+using HoloToolkit.Unity;
 using System.Collections;
 
 public class Commands : MonoBehaviour
@@ -9,7 +9,7 @@ public class Commands : MonoBehaviour
 
     Quaternion originalRotation;
     Vector3 originalPosition;
-    //protected WorldAnchorManager anchorManager;
+    protected WorldAnchorManager anchorManager;
 
     // Use this for initialization
     void Start()

@@ -1,9 +1,9 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
         <UnityWSASolutionName>CTP 2</UnityWSASolutionName>
-        <UnityWSASolutionDir>C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\</UnityWSASolutionDir>
-        <UnityProjectDir>C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\</UnityProjectDir>
-        <UnityWSAPlayerDir>C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
+        <UnityWSASolutionDir>C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP 5.6.2f1\Application\</UnityWSASolutionDir>
+        <UnityProjectDir>C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP 5.6.2f1\</UnityProjectDir>
+        <UnityWSAPlayerDir>C:\Program Files\Unity5.6\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
         <UnityWSAToolsDir>$(UnityWSASolutionDir)Unity\Tools\</UnityWSAToolsDir>
     </PropertyGroup>
 </Project>

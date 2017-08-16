@@ -15893,19 +15893,19 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alex\\Desktop\\Everything\\UNI 2017\\3001ICT Y1\\CTP\\Application\\CTP 2\\CTP 2.csproj",
+      "projectUniqueName": "C:\\Users\\Alex\\Desktop\\Everything\\UNI 2017\\3001ICT Y1\\CTP 5.6.2f1\\Application\\CTP 2\\CTP 2.csproj",
       "projectName": "CTP 2",
-      "projectPath": "C:\\Users\\Alex\\Desktop\\Everything\\UNI 2017\\3001ICT Y1\\CTP\\Application\\CTP 2\\CTP 2.csproj",
-      "projectJsonPath": "C:\\Users\\Alex\\Desktop\\Everything\\UNI 2017\\3001ICT Y1\\CTP\\Application\\CTP 2\\project.json",
+      "projectPath": "C:\\Users\\Alex\\Desktop\\Everything\\UNI 2017\\3001ICT Y1\\CTP 5.6.2f1\\Application\\CTP 2\\CTP 2.csproj",
+      "projectJsonPath": "C:\\Users\\Alex\\Desktop\\Everything\\UNI 2017\\3001ICT Y1\\CTP 5.6.2f1\\Application\\CTP 2\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "C:\\Users\\Alex\\Desktop\\Everything\\UNI 2017\\3001ICT Y1\\CTP\\Application\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
-              "projectPath": "C:\\Users\\Alex\\Desktop\\Everything\\UNI 2017\\3001ICT Y1\\CTP\\Application\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj"
+            "C:\\Users\\Alex\\Desktop\\Everything\\UNI 2017\\3001ICT Y1\\CTP 5.6.2f1\\Application\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
+              "projectPath": "C:\\Users\\Alex\\Desktop\\Everything\\UNI 2017\\3001ICT Y1\\CTP 5.6.2f1\\Application\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj"
             },
-            "C:\\Users\\Alex\\Desktop\\Everything\\UNI 2017\\3001ICT Y1\\CTP\\Application\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj": {
-              "projectPath": "C:\\Users\\Alex\\Desktop\\Everything\\UNI 2017\\3001ICT Y1\\CTP\\Application\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj"
+            "C:\\Users\\Alex\\Desktop\\Everything\\UNI 2017\\3001ICT Y1\\CTP 5.6.2f1\\Application\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj": {
+              "projectPath": "C:\\Users\\Alex\\Desktop\\Everything\\UNI 2017\\3001ICT Y1\\CTP 5.6.2f1\\Application\\GeneratedProjects\\UWP\\Assembly-CSharp-firstpass\\Assembly-CSharp-firstpass.csproj"
             }
           }
         }
