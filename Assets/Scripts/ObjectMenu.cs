@@ -31,4 +31,8 @@ public class ObjectMenu : MonoBehaviour
         instance.transform.parent = instantiateLoc.transform;
         instance.name = "Car" + System.DateTime.Now.ToString("yyyyMMddhhmmss");
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/master
