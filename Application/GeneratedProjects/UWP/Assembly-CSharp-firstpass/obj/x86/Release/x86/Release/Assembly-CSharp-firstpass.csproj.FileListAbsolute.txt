@@ -1,34 +1,17 @@
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP 5.6.2f1\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.dll
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP 5.6.2f1\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.pdb
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP 5.6.2f1\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.pri
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP 5.6.2f1\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP 5.6.2f1\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.dll
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP 5.6.2f1\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.pdb
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP 5.6.2f1\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\priconfig.xml
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP 5.6.2f1\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\priconfig.xml.intermediate
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP 5.6.2f1\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\layout.resfiles
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP 5.6.2f1\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\layout.resfiles.intermediate
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP 5.6.2f1\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\resources.resfiles
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP 5.6.2f1\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\resources.resfiles.intermediate
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP 5.6.2f1\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\pri.resfiles
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP 5.6.2f1\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\pri.resfiles.intermediate
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP 5.6.2f1\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\qualifiers.txt
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP 5.6.2f1\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\qualifiers.txt.intermediate
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP 5.6.2f1\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\MultipleQualifiersPerDimensionFound.txt
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP Fix\CTP-9402318477626211807df22935bb8ef5fee9b458\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.dll
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP Fix\CTP-9402318477626211807df22935bb8ef5fee9b458\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.pdb
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP Fix\CTP-9402318477626211807df22935bb8ef5fee9b458\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.pri
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP Fix\CTP-9402318477626211807df22935bb8ef5fee9b458\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP Fix\CTP-9402318477626211807df22935bb8ef5fee9b458\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.dll
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP Fix\CTP-9402318477626211807df22935bb8ef5fee9b458\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.pdb
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP Fix\CTP-9402318477626211807df22935bb8ef5fee9b458\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\priconfig.xml
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP Fix\CTP-9402318477626211807df22935bb8ef5fee9b458\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\priconfig.xml.intermediate
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP Fix\CTP-9402318477626211807df22935bb8ef5fee9b458\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\layout.resfiles
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP Fix\CTP-9402318477626211807df22935bb8ef5fee9b458\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\layout.resfiles.intermediate
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP Fix\CTP-9402318477626211807df22935bb8ef5fee9b458\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\resources.resfiles
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP Fix\CTP-9402318477626211807df22935bb8ef5fee9b458\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\resources.resfiles.intermediate
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP Fix\CTP-9402318477626211807df22935bb8ef5fee9b458\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\pri.resfiles
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP Fix\CTP-9402318477626211807df22935bb8ef5fee9b458\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\pri.resfiles.intermediate
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP Fix\CTP-9402318477626211807df22935bb8ef5fee9b458\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\qualifiers.txt
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP Fix\CTP-9402318477626211807df22935bb8ef5fee9b458\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\qualifiers.txt.intermediate
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP Fix\CTP-9402318477626211807df22935bb8ef5fee9b458\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.dll
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.pdb
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\bin\x86\Release\Assembly-CSharp-firstpass.pri
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.dll
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\Assembly-CSharp-firstpass.pdb
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\priconfig.xml
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\priconfig.xml.intermediate
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\layout.resfiles
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\layout.resfiles.intermediate
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\resources.resfiles
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\resources.resfiles.intermediate
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\pri.resfiles
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\pri.resfiles.intermediate
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\qualifiers.txt
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\qualifiers.txt.intermediate
+C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\obj\x86\Release\x86\Release\MultipleQualifiersPerDimensionFound.txt

@@ -29,7 +29,7 @@ public class Commands : MonoBehaviour
             //anchorManager.RemoveAnchor(gameObject); //Remove anchor temporarily
             //Debug.Log("RemoveAnchor");
             var rigidbody = this.gameObject.AddComponent<Rigidbody>();
-            rigidbody.collisionDetectionMode = CollisionDetectionMode.Continuous;
+            rigidbody.collisionDetectionMode = CollisionDetectionMode.Discrete;
             Debug.Log("Test Started");
         }
         else

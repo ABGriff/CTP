@@ -6,10 +6,12 @@ public class GridScript : MonoBehaviour {
 
     public Transform gridPrefab;
     public Vector3 Size;
+    public static bool lemon;
 
 	// Use this for initialization
 	void Start () {
         CreateGrid();
+        lemon = false;
 	}
 	
     //Creates the grid of points to snap things onto. Chucks all of the points under the "Grid" Game Object.

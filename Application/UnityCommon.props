@@ -1,8 +1,8 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
-        <UnityWSASolutionName>CTP 2</UnityWSASolutionName>
-        <UnityWSASolutionDir>C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP Fix\CTP-9402318477626211807df22935bb8ef5fee9b458\Application\</UnityWSASolutionDir>
-        <UnityProjectDir>C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP Fix\CTP-9402318477626211807df22935bb8ef5fee9b458\</UnityProjectDir>
+        <UnityWSASolutionName>CTP_Play_Test</UnityWSASolutionName>
+        <UnityWSASolutionDir>C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\</UnityWSASolutionDir>
+        <UnityProjectDir>C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\</UnityProjectDir>
         <UnityWSAPlayerDir>C:\Program Files\Unity5.6\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
         <UnityWSAToolsDir>$(UnityWSASolutionDir)Unity\Tools\</UnityWSAToolsDir>
     </PropertyGroup>

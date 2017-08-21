@@ -10,8 +10,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: CTP 2
+  companyName: RealitySqaured
+  productName: CTP_Play_Test
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21176471, a: 1}
@@ -519,7 +519,7 @@ PlayerSettings:
   metroCertificateSubject: DefaultCompany
   metroCertificateIssuer: DefaultCompany
   metroCertificateNotAfter: 801852c1bdf2d301
-  metroApplicationDescription: CTP 2
+  metroApplicationDescription: CTP_Play_Test
   wsaImages: {}
   metroTileShortName: 
   metroCommandLineArgsFile: 

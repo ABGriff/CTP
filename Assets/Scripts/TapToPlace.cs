@@ -7,6 +7,7 @@ using HoloToolkit.Unity.SpatialMapping;
 
 namespace HoloToolkit.Unity.InputModule
 {
+
     /// <summary>
     /// The TapToPlace class is a basic way to enable users to move objects 
     /// and place them on real world surfaces.
@@ -36,7 +37,7 @@ namespace HoloToolkit.Unity.InputModule
         /// Useful when you want to place an object immediately.
         /// </summary>
         [Tooltip("Setting this to true will enable the user to move and place the object in the scene without needing to tap on the object. Useful when you want to place an object immediately.")]
-        public bool IsBeingPlaced;
+        public static bool IsBeingPlaced;
 
         [Tooltip("Setting this to true will allow this behavior to control the DrawMesh property on the spatial mapping.")]
         public bool AllowMeshVisualizationControl = true;

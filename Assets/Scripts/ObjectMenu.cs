@@ -31,4 +31,28 @@ public class ObjectMenu : MonoBehaviour
         instance.transform.parent = instantiateLoc.transform;
         instance.name = "Car" + System.DateTime.Now.ToString("yyyyMMddhhmmss");
     }
+
+    public void spawnBridgeOne()
+    {
+        GameObject instance = Instantiate(Resources.Load("BridgeOne"), new Vector3(0.2F, 0.02F, 3F), transform.rotation) as GameObject;
+        instance.name = "BridgeOne" + System.DateTime.Now.ToString("yyyyMMddhhmmss");
+    }
+
+	public void LevelOne() {
+		// Create a temporary reference to the current scene.
+		Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene("Level One");
+	}
+
+    public void LevelTwo() {
+        // Create a temporary reference to the current scene.
+        Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene("Level Two");
+    }
+
+    public void LevelThree() {
+        // Create a temporary reference to the current scene.
+        Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene("Level Three");
+    }
 }

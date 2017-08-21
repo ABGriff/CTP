@@ -1,4 +1,0 @@
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP Fix\CTP-9402318477626211807df22935bb8ef5fee9b458\Application\CTP 2\CTP 2.csproj;x86
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP Fix\CTP-9402318477626211807df22935bb8ef5fee9b458\Application\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP Fix\CTP-9402318477626211807df22935bb8ef5fee9b458\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP Fix\CTP-9402318477626211807df22935bb8ef5fee9b458\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
