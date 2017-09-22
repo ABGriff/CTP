@@ -11,6 +11,8 @@ namespace HoloToolkit.Unity.SpatialMapping
 {
     public class SpatialMappingSource : MonoBehaviour
     {
+
+        public List<GameObject> spatialMap;
         /// <summary>
         /// Surface object
         /// </summary>
@@ -114,6 +116,9 @@ namespace HoloToolkit.Unity.SpatialMapping
             // is a side effect in the setter when setting the shared mesh to null.
             surfaceObject.Collider.sharedMesh = null;
             surfaceObject.Collider.sharedMesh = surfaceObject.Filter.sharedMesh;
+            //CTP ADDED TO MAKE ALL SURFACES BE UNDER SURFACE TAG
+            surfaceObject.Object.gameObject.tag = "Surface";
+            spatialMap.Add(surfaceObject.Object.gameObject);
 
             return surfaceObject;
         }

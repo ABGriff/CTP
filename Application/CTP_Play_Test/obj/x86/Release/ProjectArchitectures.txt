@@ -1,4 +1,4 @@
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\CTP_Play_Test\CTP_Play_Test.csproj;x86
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
-C:\Users\Alex\Desktop\Everything\UNI 2017\3001ICT Y1\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
+C:\Users\IdeaLab\Desktop\CTP\Application\CTP_Play_Test\CTP_Play_Test.csproj;x86
+C:\Users\IdeaLab\Desktop\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+C:\Users\IdeaLab\Desktop\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86
+C:\Users\IdeaLab\Desktop\CTP\Application\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj;x86

@@ -216,7 +216,6 @@ namespace HoloToolkit.Unity.SpatialMapping
                             meshID: surfaceID.handle,
                             drawVisualMeshesOverride: false
                             );
-
                         worldAnchor = newSurface.Object.AddComponent<WorldAnchor>();
                     }
                     else

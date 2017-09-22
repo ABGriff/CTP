@@ -1,76 +1,72 @@
-﻿using System.Collections;
+﻿using HoloToolkit.Unity.InputModule;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.Vehicles.Car;
 
 public class CarCommands : MonoBehaviour {
 
-	Vector3 velocity;
+    /// <summary>
+    /// This script will holds the commands for our car!
+    /// Alexander Burey 2017
+    /// Common Time Playbox
+    /// </summary>
+
+    Vector3 velocity;
 	Vector3 angularVelocity;
 
 	Quaternion originalRotation;
 	Vector3 originalPosition;
-	// Use this for initialization
-	void Start () {
-		// Grab the original local position of the object when the app starts.
-		originalPosition = transform.localPosition;
-		originalRotation = transform.rotation;
+	List<GameObject> cars;
 
-		Debug.Log(gameObject.name + "position");
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
-	 public void StartTest()
-    {
-        var focusObject = gameObject;
-        if (focusObject != null)
-        {
-			//anchorManager.RemoveAnchor(gameObject); //Remove anchor temporarily
-			//Debug.Log("RemoveAnchor");
-			this.gameObject.GetComponent<Rigidbody>().isKinematic = false;
-            //var rigidbody = this.gameObject.AddComponent<Rigidbody>();
-            //rigidbody.collisionDetectionMode = CollisionDetectionMode.Discrete;
-            Debug.Log("Test Started");
-        }
-        else
-        {
-            Debug.Log("focusObject is Null!");
-        }
+	 public void StartTest() {
+        //find the car(s)
+        cars = new List<GameObject>(GameObject.FindGameObjectsWithTag("Vehicle"));
+		foreach (GameObject obj in cars) {
+			if (obj.gameObject != null) {
+                //Save the position and rotation of the car
+                originalPosition = obj.transform.localPosition;
+                originalRotation = obj.transform.rotation;
+                //Make the car move, disable tap to place, disable isKinematic and enable the car ai control
+                obj.gameObject.GetComponent<TapToPlace>().enabled = false;
+				obj.gameObject.GetComponent<Rigidbody>().isKinematic = false;
+				obj.gameObject.GetComponent<CarAIControl>().enabled = true;
+			} else {
+				Debug.Log("focusObject is Null!");
+			}
+		}
     }
 
 	public void Reset() {
-		// If the sphere has a Rigidbody component, remove it to disable physics.
-		Debug.Log(gameObject.name + " reset");
+        //find the car(s)
+        cars = new List<GameObject>(GameObject.FindGameObjectsWithTag("Vehicle"));
 		var rigidbody = this.GetComponent<Rigidbody>();
-		if (rigidbody != null) {
-			this.gameObject.GetComponent<Rigidbody>().isKinematic = true;
-		}
+		foreach (GameObject obj in cars) {
+            //Reset the car, enable taptoplace, enable is kinematic and disable the car ai control
+            obj.gameObject.GetComponent<Rigidbody>().isKinematic = true;
+			obj.gameObject.GetComponent<TapToPlace>().enabled = true;
+			obj.gameObject.GetComponent<CarAIControl>().enabled = false;
 
-		// Put the object back into its original local position and rotation.
-		//Debug.Log("transform");
-		this.transform.localPosition = originalPosition;
-		this.transform.localRotation = originalRotation;
-		//Debug.Log("rotate");
-		//originalRotation = transform.rotation;
+			// Put the object back into its original local position and rotation.
+			obj.transform.localPosition = originalPosition;
+			obj.transform.localRotation = originalRotation;
+		}
 	}
 
+    //Pauses or Continues a current test in progress.
     public void PauseContinueTest() {
-        //Pauses or Continues a current test in progress.
-
-        var rigidbody = this.GetComponent<Rigidbody>();
-        if (rigidbody != null) {
-            if (rigidbody.isKinematic == false) {
-                rigidbody.isKinematic = true;
-                Debug.Log(gameObject.name + "Test Paused");
-            }
-            else {
-                rigidbody.isKinematic = false;
-                Debug.Log(gameObject.name + "Test Continued");
-            }
-        }
-    }
-
+		cars = new List<GameObject>(GameObject.FindGameObjectsWithTag("Vehicle"));
+		foreach (GameObject obj in cars) {
+            //Check if car is in Start test mode first. Don't want to pause/continue a car that isnt in a test
+            if (obj.transform.GetComponent<TapToPlace>().enabled == false) {
+                if (obj.transform.GetComponent<Rigidbody>().isKinematic == false) {
+                obj.transform.GetComponent<Rigidbody>().isKinematic = true;
+			    obj.gameObject.GetComponent<CarAIControl>().enabled = false;
+			} else {
+                    obj.transform.GetComponent<Rigidbody>().isKinematic = false;
+                    obj.gameObject.GetComponent<CarAIControl>().enabled = true;
+                }
+			}
+		}
+	}
 }

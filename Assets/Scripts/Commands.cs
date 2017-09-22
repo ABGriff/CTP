@@ -18,7 +18,7 @@ public class Commands : MonoBehaviour
         originalPosition = transform.localPosition;
         originalRotation = transform.rotation;
 
-        Debug.Log(gameObject.name + "position");
+        //Debug.Log(gameObject.name + "position");
     }
 
     public void StartTest()

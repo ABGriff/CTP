@@ -5,9 +5,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using HoloToolkit.Unity.SpatialMapping;
 
-namespace HoloToolkit.Unity.InputModule
-{
-
+namespace HoloToolkit.Unity.InputModule {
     /// <summary>
     /// The TapToPlace class is a basic way to enable users to move objects 
     /// and place them on real world surfaces.
@@ -17,10 +15,13 @@ namespace HoloToolkit.Unity.InputModule
     /// </summary>
     [RequireComponent(typeof(Collider))]
     [RequireComponent(typeof(Interpolator))]
-    public class TapToPlace : MonoBehaviour, IInputClickHandler
-    {
+    public class TapToPlace : MonoBehaviour, IInputClickHandler {
+
+        //This is a list taken from Spatial Mapping Source that contains our spatial mapping surfaces
+        List<GameObject> spatialMap;
+        Vector3 placementPosition;
         [Tooltip("Distance from camera to keep the object while placing it.")]
-        public float DefaultGazeDistance = 2.0f;
+        public float DefaultGazeDistance = 2.5f;
 
         [Tooltip("Supply a friendly name for the anchor as the key name for the WorldAnchorStore.")]
         public string SavedAnchorFriendlyName = "SavedAnchorFriendlyName";
@@ -37,7 +38,7 @@ namespace HoloToolkit.Unity.InputModule
         /// Useful when you want to place an object immediately.
         /// </summary>
         [Tooltip("Setting this to true will enable the user to move and place the object in the scene without needing to tap on the object. Useful when you want to place an object immediately.")]
-        public static bool IsBeingPlaced;
+        public bool IsBeingPlaced;
 
         [Tooltip("Setting this to true will allow this behavior to control the DrawMesh property on the spatial mapping.")]
         public bool AllowMeshVisualizationControl = true;
@@ -51,19 +52,15 @@ namespace HoloToolkit.Unity.InputModule
 
         private static Dictionary<GameObject, int> defaultLayersCache = new Dictionary<GameObject, int>();
 
-        protected virtual void Start()
-        {
+        protected virtual void Start() {
             // Make sure we have all the components in the scene we need.
-            if (WorldAnchorManager.Instance == null)
-            {
+            if (WorldAnchorManager.Instance == null) {
                 Debug.LogError("This script expects that you have a WorldAnchorManager component in your scene.");
             }
 
-            if (WorldAnchorManager.Instance != null)
-            {
+            if (WorldAnchorManager.Instance != null) {
                 // If we are not starting out with actively placing the object, give it a World Anchor
-                if (!IsBeingPlaced)
-                {
+                if (!IsBeingPlaced) {
                     WorldAnchorManager.Instance.AttachAnchor(gameObject, SavedAnchorFriendlyName);
                 }
             }
@@ -74,16 +71,15 @@ namespace HoloToolkit.Unity.InputModule
                 ? ParentGameObjectToPlace.EnsureComponent<Interpolator>()
                 : gameObject.EnsureComponent<Interpolator>();
 
-            if (IsBeingPlaced)
-            {
+            if (IsBeingPlaced) {
                 HandlePlacement();
             }
+            //Grabs all spatial mapping surfaces from SpatialMappingSource for Later.
+            spatialMap = GameObject.Find("SpatialMapping").GetComponent<SpatialMappingSource>().spatialMap;
         }
 
-        protected virtual void Update()
-        {
-            if (!IsBeingPlaced)
-            {
+        protected virtual void Update() {
+            if (!IsBeingPlaced) {
                 Snapping();
                 return;
             }
@@ -91,22 +87,36 @@ namespace HoloToolkit.Unity.InputModule
             Vector3 headPosition = Camera.main.transform.position;
             Vector3 gazeDirection = Camera.main.transform.forward;
 
+
             // If we're using the spatial mapping, check to see if we got a hit, else use the gaze position.
             RaycastHit hitInfo;
-            Vector3 placementPosition = SpatialMappingManager.Instance != null &&
-                Physics.Raycast(headPosition, gazeDirection, out hitInfo, 30.0f, SpatialMappingManager.Instance.LayerMask)
-                    ? hitInfo.point
-                    : (GazeManager.Instance.HitObject == null
-                        ? GazeManager.Instance.GazeOrigin + GazeManager.Instance.GazeNormal * DefaultGazeDistance
-                        : GazeManager.Instance.HitPosition);
+            
+                // Only do things if there is an instance
+            if (SpatialMappingManager.Instance) {
+
+                // Raycast to X meters
+                if (Physics.Raycast(headPosition, gazeDirection, out hitInfo, 30.0f, SpatialMappingManager.Instance.LayerMask)) {
+                    placementPosition = hitInfo.point;
+                }
+
+                // Hit nothing, so guess from the gaze
+                else {
+                    if (GazeManager.Instance.HitObject == null) {
+                        placementPosition = GazeManager.Instance.GazeOrigin + GazeManager.Instance.GazeNormal * DefaultGazeDistance;
+                    }
+
+                    else {
+                        placementPosition = GazeManager.Instance.HitPosition;
+                    }
+                }
+            }
 
             // Here is where you might consider adding intelligence
             // to how the object is placed.  For example, consider
             // placing based on the bottom of the object's
             // collider so it sits properly on surfaces.
 
-            if (PlaceParentOnTap)
-            {
+            if (PlaceParentOnTap) {
                 placementPosition = ParentGameObjectToPlace.transform.position + (placementPosition - gameObject.transform.position);
             }
 
@@ -114,39 +124,54 @@ namespace HoloToolkit.Unity.InputModule
             interpolator.SetTargetPosition(placementPosition);
 
             // Rotate this object to face the user.
-            interpolator.SetTargetRotation(Quaternion.Euler(0, Camera.main.transform.localEulerAngles.y, 0));
-        }
-        /// <summary>
-        /// ////////////////Snapping checks if the gameObject has a rigidbody before snapping the gameObject to a grid. If it doesn't then snapping is allowed.
-        /// </summary>
-        public void Snapping()
-        {
-            
-            if (this.gameObject.GetComponent<Rigidbody>() == null)
-            {
-                var currentPos = transform.position;
-                transform.position = new Vector3(Mathf.Floor(currentPos.x * 5) / 5, Mathf.Floor(currentPos.y * 5) / 5, Mathf.Floor(currentPos.z * 5) / 5);
-            }
-            
+            //interpolator.SetTargetRotation(Quaternion.Euler(0, Camera.main.transform.localEulerAngles.y, 0));
         }
 
-        public virtual void OnInputClicked(InputClickedEventData eventData)
-        {
+        public virtual void OnInputClicked(InputClickedEventData eventData) {
             // On each tap gesture, toggle whether the user is in placing mode.
             IsBeingPlaced = !IsBeingPlaced;
             HandlePlacement();
         }
 
-        private void HandlePlacement()
-        {
-            if (IsBeingPlaced)
-            {
+        /// <summary>
+        /// ////////////////Snapping checks if the gameObject has a rigidbody before snapping the gameObject to a grid. If it doesn't then snapping is allowed.
+        /// </summary>
+
+        public void Snapping() {
+            //if (this.gameObject.GetComponent<Rigidbody>() == null)
+            //{
+            var currentPos = transform.position;
+            transform.position = new Vector3(Mathf.Floor(currentPos.x * 40) / 40, Mathf.Floor(currentPos.y * 40) / 40, Mathf.Floor(currentPos.z * 40) / 40);
+            // }
+
+        }
+        //GameObject.Find("SpatialMapping").gameObject.SetActive(false)
+        private void HandlePlacement() {
+            if (IsBeingPlaced) {
                 SetLayerRecursively(transform, useDefaultLayer: false);
                 InputManager.Instance.AddGlobalListener(gameObject);
+				//If it's a plank, we want to be able to place it in mid air. Otherwise an anchor can go against the wall/table.
 
-                // If the user is in placing mode, display the spatial mapping mesh.
-                if (AllowMeshVisualizationControl)
-                {
+				if (this.transform.gameObject.name.Equals("Plank")) {
+					Debug.Log("blip");
+					foreach (GameObject obj in spatialMap) {
+						obj.gameObject.SetActive(false);
+					}
+				} else if (this.transform.gameObject.name.Equals("WaypointCar")) {
+					foreach (GameObject obj in spatialMap) {
+						obj.gameObject.SetActive(false);
+					}
+				} else if (this.transform.gameObject.name.Equals("Support(Clone)")) {
+					foreach (GameObject obj in spatialMap) {
+						obj.gameObject.SetActive(false);
+					}
+				} else {
+					foreach (GameObject obj in spatialMap) {
+						obj.gameObject.SetActive(true);
+					}
+				}
+				// If the user is in placing mode, display the spatial mapping mesh.
+				if (AllowMeshVisualizationControl) {
                     SpatialMappingManager.Instance.DrawVisualMeshes = true;
                 }
 #if UNITY_WSA && !UNITY_EDITOR
@@ -155,16 +180,14 @@ namespace HoloToolkit.Unity.InputModule
                 WorldAnchorManager.Instance.RemoveAnchor(gameObject);
 #endif
             }
-            else
-            {
+            else {
                 SetLayerRecursively(transform, useDefaultLayer: true);
                 // Clear our cache in case we added or removed gameobjects between taps
                 defaultLayersCache.Clear();
                 InputManager.Instance.RemoveGlobalListener(gameObject);
 
                 // If the user is not in placing mode, hide the spatial mapping mesh.
-                if (AllowMeshVisualizationControl)
-                {
+                if (AllowMeshVisualizationControl) {
                     SpatialMappingManager.Instance.DrawVisualMeshes = false;
                 }
 #if UNITY_WSA && !UNITY_EDITOR
@@ -175,50 +198,40 @@ namespace HoloToolkit.Unity.InputModule
             }
         }
 
-        private void DetermineParent()
-        {
+        private void DetermineParent() {
             if (!PlaceParentOnTap) { return; }
 
-            if (ParentGameObjectToPlace == null)
-            {
-                if (gameObject.transform.parent == null)
-                {
+            if (ParentGameObjectToPlace == null) {
+                if (gameObject.transform.parent == null) {
                     Debug.LogWarning("The selected GameObject has no parent.");
                     PlaceParentOnTap = false;
                 }
-                else
-                {
+                else {
                     Debug.LogWarning("No parent specified. Using immediate parent instead: " + gameObject.transform.parent.gameObject.name);
                     ParentGameObjectToPlace = gameObject.transform.parent.gameObject;
                 }
             }
 
-            if (ParentGameObjectToPlace != null && !gameObject.transform.IsChildOf(ParentGameObjectToPlace.transform))
-            {
+            if (ParentGameObjectToPlace != null && !gameObject.transform.IsChildOf(ParentGameObjectToPlace.transform)) {
                 Debug.LogWarning("The specified parent object is not a parent of this object.");
             }
         }
 
-        private static void SetLayerRecursively(Transform objectToSet, bool useDefaultLayer)
-        {
-            if (useDefaultLayer)
-            {
+        private static void SetLayerRecursively(Transform objectToSet, bool useDefaultLayer) {
+            if (useDefaultLayer) {
                 int defaultLayerId;
-                if (defaultLayersCache.TryGetValue(objectToSet.gameObject, out defaultLayerId))
-                {
+                if (defaultLayersCache.TryGetValue(objectToSet.gameObject, out defaultLayerId)) {
                     objectToSet.gameObject.layer = defaultLayerId;
                     defaultLayersCache.Remove(objectToSet.gameObject);
                 }
             }
-            else
-            {
+            else {
                 defaultLayersCache.Add(objectToSet.gameObject, objectToSet.gameObject.layer);
 
                 objectToSet.gameObject.layer = IgnoreRaycastLayer;
             }
 
-            for (int i = 0; i < objectToSet.childCount; i++)
-            {
+            for (int i = 0; i < objectToSet.childCount; i++) {
                 SetLayerRecursively(objectToSet.GetChild(i), useDefaultLayer);
             }
         }
